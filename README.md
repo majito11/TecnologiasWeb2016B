@@ -5,7 +5,16 @@ Este repositorio forma parte del [Curso de Tecnologias](https://github.com/adria
 
 # Enfasis de texto
 
-* Para nosotros utilizar un texto en **negrita**
+* Para nosotros utilizar un texto en **negrita** se utiliza dos asteriscos
+* Para nosotros utilizar un texto en *cursiva* vamos a utilizar un solo asterisco
+* Para nosotros tachar un texto
 
-# TecnologiasWeb2016B
-TecnologiasWeb2016B
+# Listas Ordenadas
+
+1. El numero de 
+2. las listas
+2. las listas
+1. ordenadas 
+4 no importa
+
+
