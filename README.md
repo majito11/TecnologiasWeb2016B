@@ -19,4 +19,11 @@ Este repositorio forma parte del [Curso de Tecnologias](https://github.com/adria
 
 1. Ordenadas
    1. Esta si es una lista no ordenada(Con dos espacios)
+   
+Para utilizar un [link](https://github.com/adrianeguez/Tec_Web_Js_2016_B)
+
+# Imagenes
+Para utilizar imagenes debemos colocar un texto alternativo en brackets [] despues del caracter
+
+![Imagen de Js color amarillo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
