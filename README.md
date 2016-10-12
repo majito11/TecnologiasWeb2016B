@@ -31,8 +31,15 @@ Para utilizar imagenes debemos colocar un texto alternativo en brackets [] despu
 Para nosotros utilizar el formateo de codigo dentro del texto plano debemos utilizar el caracter de `tilde invertida`
 Para utilizar el formateo de codigo en un bloque de codigo debemos utilizar ter tildes invertidas donde se puede especificar el lenguaje de programcion a usarse 
 
+*Bloque de codigo con `javascript`
 ````Javascript
 
 var mensaje = "Hola mundo"
 
 ```` 
+*Bloque de codigo de una `consola`
+
+```
+>apt - get update paquete
+
+```
