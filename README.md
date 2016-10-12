@@ -43,3 +43,13 @@ var mensaje = "Hola mundo"
 >apt - get update paquete
 
 ```
+
+*Bloque de codigo de `HTML`
+
+```
+
+<html>
+</html>
+
+
+```
