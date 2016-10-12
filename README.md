@@ -17,4 +17,6 @@ Este repositorio forma parte del [Curso de Tecnologias](https://github.com/adria
 1. ordenadas 
 4 no importa
 
+1. Ordenadas
+   1. Esta si es una lista no ordenada(Con dos espacios)
 
