@@ -27,3 +27,12 @@ Para utilizar imagenes debemos colocar un texto alternativo en brackets [] despu
 
 ![Imagen de Js color amarillo](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
+# Formateo de codigo
+Para nosotros utilizar el formateo de codigo dentro del texto plano debemos utilizar el caracter de `tilde invertida`
+Para utilizar el formateo de codigo en un bloque de codigo debemos utilizar ter tildes invertidas donde se puede especificar el lenguaje de programcion a usarse 
+````
+Javascript
+
+var mensaje = "Hola mundo"
+
+```` 
