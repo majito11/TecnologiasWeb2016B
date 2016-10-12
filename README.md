@@ -79,3 +79,13 @@ Sino utilizamos una sola linea
 > Y si me matas, ¿Me muero?
 
 
+# Saltos de línea
+Para utilizar un salto de lines utilizaremos el caracter `-`
+---
+
+o el caracter `_`
+___
+
+o el caracter `*`
+
+***
