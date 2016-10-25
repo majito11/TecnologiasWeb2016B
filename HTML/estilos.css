@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!--Estilo css propiedad css: valorPropiedad -->
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+    
+        html{
+        background-color: #687fd4;
+        
+        }
+        
+        body{
+            background-color:#687fd4;
+        }
+        
+        h1{
+            background-color: #a2b42b;
+        }
+        
+        p{
+            background-color: red;
+        }
+        
+        .nombreClaseRojo{
+             background-color: hotpink;
+        }
+        .nombreClaseAzul{
+             background-color: blue;
+        }
+        
+        .nombreClaseAmarillo{
+             background-color: yellow;
+        }
+        
+/*        Seleccionar por id*/
+        
+        #parrafoVerde{
+            background-color: aquamarine;
+        }
+            
+            /*Tag*/
+            /* nombreTag{
+        propiedad1:valor propiedad1;
+            
+        }*/
+        /* nombrepRropiedad :valorPropiedad;*/
+    </style>
+</head>
+
+<body>
+
+  
+   <h1>Hola</h1>
+   
+   <p class="nombreClaseRojo">Parrafo</p>
+   <h1 class="nombreClaseAmarillo">Amigos</h1>
+   <p class="nombreClaseAzul">Parrafo 2</p>
+   <h1>Politecnicos</h1>
+   <p id="parrafoVerde" class="nombreClaseAmarillo" >Parrafo3</p>
+   <p>Parrafo sin clase</p>
+</body>
+
+</html>
+
+
+
+
+
