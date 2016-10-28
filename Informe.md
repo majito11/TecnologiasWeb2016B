@@ -103,3 +103,35 @@ El <title>elemento especifica un título para el documento
 El <body>elemento contiene el contenido de la página visible
 El <h1>elemento define un gran encabezado
 El <p>elemento define un párrafo
+
+
+Despues de haber creado nuestro primer codigo html obtenemos.
+![Documento](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/pagweb.PNG)
+
+Mediante el tag href podemos ubicar un link en nuestra pagina
+
+![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
