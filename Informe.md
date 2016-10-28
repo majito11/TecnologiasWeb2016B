@@ -92,4 +92,7 @@ Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP respons
  
  ## 4. Desarrollo del informe
  
+ Esta es una estructura de HTML
+ 
+ ![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
  
