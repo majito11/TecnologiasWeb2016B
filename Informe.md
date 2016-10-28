@@ -91,7 +91,7 @@ Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP respons
  [Fuente](https://diego.com.es/metodos-http)
  
  
- ## 4.Desarrollo del informe
+## 4. Desarrollo de la Práctica 
  
  Esta es una estructura de HTML
  
@@ -112,7 +112,7 @@ Despues de haber creado nuestro primer codigo html obtenemos.
 
 Mediante el tag href podemos ubicar un link en nuestra pagina
 
-
+![Link](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/linkpag.PNG)
 
 Podemos crear nuestra propia pagina mediante la edicion de estilos y colores 
 
@@ -121,6 +121,14 @@ Podemos crear nuestra propia pagina mediante la edicion de estilos y colores
 Y obtenemos esta pagina
 
 ![Pagina](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/Pagina.PNG)
+
+## 5. Conclusiones
+
+1. Se podria mejorar la presentacion tomando capturas en el momento de la clases.
+2. Se aprendio el uso de DocTypes.
+3. Se aprendio sobre los tag utilizados en html.
+4. Con el conocimiento de los tags pudimos realizar trabajos de web.
+
 
 
 
