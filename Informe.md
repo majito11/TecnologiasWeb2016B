@@ -38,7 +38,7 @@ La World Wide Web se basa en hipertextos, es decir, páginas en las que se puede
 
 #### Que es HTML
 
-** (HyperText Markup Language) **
+** (HyperText Markup Language)
 
  Hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros
  
