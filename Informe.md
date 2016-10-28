@@ -112,7 +112,16 @@ Despues de haber creado nuestro primer codigo html obtenemos.
 
 Mediante el tag href podemos ubicar un link en nuestra pagina
 
-![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
+
+
+Podemos crear nuestra propia pagina mediante la edicion de estilos y colores 
+
+![Codigo HTML](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/PaginaConImagenesColores.PNG)
+
+Y obtenemos esta pagina
+
+![Pagina](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/Pagina.PNG)
+
 
 
 
