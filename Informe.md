@@ -36,6 +36,11 @@ La World Wide Web se basa en hipertextos, es decir, páginas en las que se puede
 
 ![World Wide Web](http://www.fotonostra.com/digital/fotos/paginasweb.jpg)
 
+#### W3C
+
+La principal actividad del W3C es desarrollar protocolos y directrices que aseguren el crecimiento de la Web a largo plazo. Los estándares del W3C definen las partes claves que hacen que la World Wide Web funcione. 
+
+
 #### Que es HTML
 
 **(HyperText Markup Language)**
@@ -50,6 +55,41 @@ La World Wide Web se basa en hipertextos, es decir, páginas en las que se puede
 
 ![Tags en HTML](https://3.bp.blogspot.com/-0ka-BSo8ALc/Vw9ZCnQdJ4I/AAAAAAAAqMU/P08c8iRc7DQSedTMDKWdPo-cWpfSYjoHgCLcB/s400/tags.jpg)
   
-  
+### Que es HTTP
+
+**Hypertext Transfer Protocol**
+
+Es el protocolo de comunicación que permite las transferencias de información en la World Wide Web. HTTP fue desarrollado por el World Wide Web Consortium y la Internet Engineering Task Force, colaboración que culminó en 1999 con la publicación de una serie de RFC, el más importante de ellos es el RFC 2616 que especifica la versión 1.1. HTTP define la sintaxis y la semántica que utilizan los elementos de software de la arquitectura web (clientes, servidores, proxies) para comunicarse.
+
+[Fuente](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+![HTTP](http://www.mastermagazine.info/termino/wp-content/uploads/HTTP.jpg)
+
+**Métodos de HTTP**
+
+HTTP define algunos metodos que indica la accion que desea que se realice. A continuacion se presenta algunos ejemplos: 
+
+1. GET
+
+El método GET se emplea para leer una representación de un resource. En caso de respuesta positiva (200 OK), GET devuelve la representación en un formato concreto: HTML, XML, JSON o imágenes, JavaScript, CSS, etc. En caso de respuesta negativa devuelve 404 (not found) o 400 (bad request). 
+
+2. POST
+
+Aunque se puedan enviar datos a través del método GET, en muchos casos se utiliza POST por las limitaciones de GET. En caso de respuesta positiva devuelve 201 (created). Los POST requests se envían normalmente con formularios
+
+3. PUT
+
+Utilizado normalmente para actualizar contenidos, pero también pueden crearlos. Tampoco muestra ninguna información en la URL. En caso de éxito devuelve 201 (created, en caso de que la acción haya creado un elemento) o 204 (no response, si el servidor no devuelve ningún contenido).
+ 
+4. DELETE
+
+Simplemente elimina un resource identificado en la URI. Si se elimina correctamente devuelve 200 junto con un body response, o 204 sin body. DELETE, al igual que PUT y GET, también es idempotente.
+
+5. HEAD
+
+Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP response. Cuando se envía un HEAD request, significa que sólo se está interesado en el código de respuesta y los headers HTTP, no en el propio documento. Con este método el navegador puede comprobar si un documento se ha modificado, por razones de caching. Puede comprobar también directamente si el archivo existe.
+ 
+ [Fuente](https://diego.com.es/metodos-http)
+ 
+ ## 4. Desarrollo del informe
  
  
