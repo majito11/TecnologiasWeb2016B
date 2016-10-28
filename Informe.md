@@ -96,3 +96,10 @@ Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP respons
  
  ![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
  
+La <!DOCTYPE html>declaración indica que este documento sea HTML5
+El <html>elemento es el elemento raíz de una página HTML
+El <head>elemento contiene información de metadatos sobre el documento
+El <title>elemento especifica un título para el documento
+El <body>elemento contiene el contenido de la página visible
+El <h1>elemento define un gran encabezado
+El <p>elemento define un párrafo
