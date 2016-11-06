@@ -158,13 +158,39 @@ Por ultimo copiamos el siguiente codigo:
   </div><!-- /.container-fluid -->
 </nav>
   
-  <button class="aqua" ondblclick="alert('ADVERTENCIA')">Botón</button>
-  
 ```
 
 Y obtenemos lo siguiente:
 
 ![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN4.PNG)
+
+Obtenemos el siguiente link de página
+[Link](http://jsbin.com/qanevebipi/1/edit?html,console,output)
+
+
+## Introduccion a JavaScript
+
+En la interfaz creada, le asignamos una accion al botón con el siguiente código
+
+```
+<button class="aqua" ondblclick="alert('ADVERTENCIA')">Botón</button>
+
+```
+
+Y al dar click obtenemos:
+
+![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN5.PNG)
+
+
+## 5. Conclusiones y recomendaciones
+
+* CSS es el lenguaje que describe el estilo de un documento HTML.
+* Mediante la creacion de clases se puede cambiar color, tipo de leta, etc. de varios componentes de un documento HTML.
+* Es recomendable utilizar clases o ID para la asignacion de colores a los diferentes componentes.
+
+
+
+
 
 
 
