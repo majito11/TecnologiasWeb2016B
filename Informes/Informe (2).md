@@ -33,9 +33,9 @@ CSS significa
 ### S tyle 
 ### S heets
 
-CSS es un lenguaje que describe el estilo de un documento HTML.
-CSS se describe cómo se deben mostrar los elementos HTML.
+CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas.
 
+Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas, ya que obliga a crear documentos HTML/XHTML bien definidos y con significado completo (también llamados "documentos semánticos"). Además, mejora la accesibilidad del documento, reduce la complejidad de su mantenimiento y permite visualizar el mismo documento en infinidad de dispositivos diferentes.
 HTML fue nunca la intención de contener etiquetas para dar formato a una página web!
 
 HTML fue creado para describir el contenido de una página web, como:
