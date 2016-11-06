@@ -117,6 +117,9 @@ Para realizar esta practica levantamos el servicio HTTP-SERVER
 
 3. Podemos realizar una clase referencia 
 
+
+
+
 4. Creacion de tablas con CSS- Botstrap
 
 
