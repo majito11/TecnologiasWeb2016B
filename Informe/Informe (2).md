@@ -104,6 +104,22 @@ Bootstrap también le da la posibilidad de crear fácilmente diseños que respon
 
 ## 4. Desarrollo de la Práctica 
 
+Para realizar esta practica levantamos el servicio HTTP-SERVER
+
+1. Creamos estilos en la pagina
+
+![Estilos](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/codigoCCS3.PNG)
+![Resultado](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/CSS3.PNG)
+
+2. Podemos realizar el estilo mediante la creacion de clases
+
+![Clases](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/ClasesCCS.PNG)
+
+3. Podemos realizar una clase referencia 
+
+4. Creacion de tablas con CSS- Botstrap
+
+
 
 
 
