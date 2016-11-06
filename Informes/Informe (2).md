@@ -64,6 +64,7 @@ Se utiliza principalmente en su forma del lado del cliente (client-side), implem
 ## ECMAScript
 
 ![ECMAScript](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/ES.PNG)
+
 ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.
 
 La mayoría de navegadores de Internet incluyen una implementación del estándar ECMAScript, al igual que un acceso al Document Object Model para manipular páginas web. JavaScript está implementado en la mayoría de navegadores, Internet Explorer de Microsoft usa JScript. El navegador Opera tiene su propio intérprete de ECMAScript con extensiones para soportar algunas características de JavaScript y JScript. Cada navegador tiene extensiones propias al estándar ECMAScript, pero cualquier código que se adecúe al estándar debería funcionar en todos ellos.
@@ -165,7 +166,8 @@ Y obtenemos lo siguiente:
 ![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN4.PNG)
 
 Obtenemos el siguiente link de página
-[Link](http://jsbin.com/qanevebipi/1/edit?html,console,output)
+
+[Link JSBIN](http://jsbin.com/qanevebipi/1/edit?html,console,output)
 
 
 ## Introduccion a JavaScript
