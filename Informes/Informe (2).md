@@ -17,13 +17,14 @@
 
 ## 1. Tema
 
-# css
+# Introduccion a CSS
 
 ## 2. Objetivos
 
--	Aprender acerca del uso de estilos CSS
--   Aprender los conceptos de JavaScript
-
+ * Aprender acerca del uso de estilos CSS
+ * Crear una pagina con HTML y estilos CSS
+ * Aprender el uso de bootstrap
+ 
 ## 3. Marco Teórico 
 
 ## CSS
@@ -50,138 +51,63 @@ HTML fue creado para describir el contenido de una página web, como:
 ![CSS + HTML](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/CSS1.png)
 
 
-## JAVASCRIPT
+### Ejemplo
 
-![JavaScript](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JS.jpg)
+```
 
-JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+body {
+    background-color: lightblue;
+}
 
-Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas4 aunque existe una forma de JavaScript del lado del servidor(Server-side JavaScrip o SSJS). Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.
+h1 {
+    color: white;
+    text-align: center;
+}
 
-[Fuente](https://es.wikipedia.org/wiki/JavaScript)
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
 
+```
 
-## ECMAScript
+## Sintaxis y selectores CSS
 
-![ECMAScript](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/ES.PNG)
+![Sintaxis CSS]((https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/CSS2.png))
 
-ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.
+* Los puntos selector para el elemento HTML que desea estilo.
 
-La mayoría de navegadores de Internet incluyen una implementación del estándar ECMAScript, al igual que un acceso al Document Object Model para manipular páginas web. JavaScript está implementado en la mayoría de navegadores, Internet Explorer de Microsoft usa JScript. El navegador Opera tiene su propio intérprete de ECMAScript con extensiones para soportar algunas características de JavaScript y JScript. Cada navegador tiene extensiones propias al estándar ECMAScript, pero cualquier código que se adecúe al estándar debería funcionar en todos ellos.
+* El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
 
-[Fuente](https://es.wikipedia.org/wiki/ECMAScript)
+* Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
 
+* Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están rodeados por llaves.
 
-## JQuery
- 
-JQuery es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web. Fue presentada el 14 de enero de 2006 en el BarCamp NYC. jQuery es la biblioteca de JavaScript más utilizada.
+[Fuente](http://www.w3schools.com/css/css_syntax.asp)
 
-[Fuente](https://es.wikipedia.org/wiki/JQuery)
+## Tres formas de insertar CSS
 
+Hay tres maneras de insertar una hoja de estilo:
+
+* hoja de estilos externa.- Con una hoja de estilos externa, puede cambiar el aspecto de un sitio web completo cambiando un archivo.
+* hoja de estilo interna.- Una hoja de estilo interna puede ser usado si una sola página tiene un estilo único.
+* estilo en línea.- Un estilo en línea se puede utilizar para aplicar un estilo único para un solo elemento.
+  Para utilizar los estilos en línea, añadir el atributo de estilo al elemento relevante. El atributo de estilo puede contener cualquier propiedad CSS.
+  
+## Bootstrap
+
+Bootstrap es un marco frontal de extremo libre para el desarrollo web más rápido y más fácil
+Bootstrap incluye plantillas de diseño basadas en HTML y CSS para tipografía, formas, botones, tablas de navegación, modales, carruseles de imágenes y muchas otras, así como complementos opcionales de JavaScript
+Bootstrap también le da la posibilidad de crear fácilmente diseños que responden. 
+
+[Fuente](http://www.w3schools.com/bootstrap/)
 
 ## 4. Desarrollo de la Práctica 
 
-1. Para el desarrollo de la practica utilizaremos la alicacion JSBin. (Para empezar utilizaremos HTML)
-
-![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN1.PNG)
-
-Obtenemos los CDN de CSS y JavaScript
-
-[CDNs](https://www.bootstrapcdn.com/)
-
-![CDN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/CDN.PNG)
-
-2. Copiamos fragmentos de codigo de la pagina de bootstrap en la cual realizamos dos clases "aqua" y "pink" 
-
-![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN2.PNG)
-
-El resultado de correr el codigo es el siguiente:
-
-![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN3.PNG)
-
-Por ultimo copiamos el siguiente codigo: 
-
-* Codigo apartado `NavBar`
-
-```
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  
-```
-
-Y obtenemos lo siguiente:
-
-![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN4.PNG)
-
-Obtenemos el siguiente link de página
-
-[Link JSBIN](http://jsbin.com/qanevebipi/1/edit?html,console,output)
 
 
-## Introduccion a JavaScript
 
-En la interfaz creada, le asignamos una accion al botón con el siguiente código
 
-```
-<button class="aqua" ondblclick="alert('ADVERTENCIA')">Botón</button>
-
-```
-
-Y al dar click obtenemos:
-
-![JSBIN](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/JSBIN5.PNG)
 
 
 ## 5. Conclusiones y recomendaciones
