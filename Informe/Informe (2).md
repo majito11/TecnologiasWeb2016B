@@ -114,19 +114,15 @@ Para realizar esta practica levantamos el servicio HTTP-SERVER
 2. Podemos realizar el estilo mediante la creacion de clases
 
 ![Clases](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/ClasesCCS.PNG)
+![Resultado](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/CSSClases.PNG)
 
-3. Podemos realizar una clase referencia 
+3. Podemos realizar una clase referencia con un directorio
 
-
-
+![Directorio](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/DirectorioCSS.PNG)
 
 4. Creacion de tablas con CSS- Botstrap
 
-
-
-
-
-
+![Creacion de Tablas](https://github.com/majito11/TecnologiasWeb2016B/blob/master/Graficos/columnas.PNG)
 
 
 ## 5. Conclusiones y recomendaciones
