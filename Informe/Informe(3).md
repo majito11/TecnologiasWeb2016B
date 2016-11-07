@@ -28,7 +28,7 @@ Bootstrap
 
 ### Bootstrap
 
-[](http://txtbits.com/wp-content/uploads/2015/07/bootstrap.png)
+![Bootstrap](http://txtbits.com/wp-content/uploads/2015/07/bootstrap.png)
 
 Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo.
 
