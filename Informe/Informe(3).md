@@ -38,6 +38,8 @@ El beneficio de usar responsive design en un sitio web, es principalmente que el
 
 ### CDN
 
+![CDN](https://volumeoftech.files.wordpress.com/2015/01/hosting-41.png?w=640)
+
 Una red de entrega de contenidos (CDN, content delivery network en inglés) es una red superpuesta de computadoras que contienen copias de datos, colocados en varios puntos de una red con el fin de maximizar el ancho de banda para el acceso a los datos de clientes por la red. Un cliente accede a una copia de la información cerca del cliente, en contraposición a todos los clientes que acceden al mismo servidor central, a fin de evitar embudos cerca de ese servidor.
 
 Los tipos de contenido incluyen objetos web, objetos para descargar (archivos multimedia, software, documentos), aplicaciones, medios de comunicación en tiempo real y otros componentes de entrega de Internet (DNS, rutas y consultas de base de datos).
