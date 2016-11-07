@@ -1,7 +1,7 @@
 # BOOTSTRAP
 
 ### Materia: TECNOLOGIAS WEB CON JAVASCRIPT
-### TEMA: CSS
+### TEMA: BOOTSTRAP
 ### FECHA: 02/11/2016
 ### ESTUDIANTE: María José Caiza Cargua
 ### PROFESOR: Ing. Tania Calle - Ing. Adrian Eguez
