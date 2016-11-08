@@ -171,33 +171,64 @@ var monthsToPrint = 12;
 //        }
             
             
-        while(monthNumber<=monthsToPrint){
-            
-            numSheep= numSheep*4;
-            console.log('The will be ' + ''+ numSheep*4 + ''+ 'sheep after'+ ''+ monthNumber + 'months');
-//            if(numSheep>10000){
+//        while(monthNumber<=monthsToPrint){
+//            
+//            numSheep= numSheep*4;
+//            console.log('The will be ' + ''+ numSheep*4 + ''+ 'sheep after'+ ''+ monthNumber + 'months');
+//           
+//            
+//            
+//            if (monthNumber%4==0){
+//                 console.log(numSheep * 0.75);
+//                numSheep= numSheep- numSheep*0.75;
+//               
+//            }
+//            else{
+//                
+//                 if(numSheep>10000){
 //                numSheep=numSheep/2;
 //                console.log(numSheep);
-//            }
-            
-            
-            if (monthNumber%4==0){
-                 console.log(numSheep * 0.75);
-                numSheep= numSheep- numSheep*0.75;
-               
-            }
-            else{
-                
-                
-            }
-            monthNumber++;
-            
-            
-        }
+////            }
+////            }
+//            monthNumber++;
+//            
+//            
+//        }
+        
         
 
+        var respuesta = prompt("Cual es tu edad");
+       console.log(parseInt(respuesta));
+
+                
+         
+                function producto(a,b,c){
+                    return a*b*c;
+                }
     
-   
+                console.log(producto(2,6,9));
+            
+               
+                
+                
+                
+                
+                function mayor(a,b){
+                    if(a>b){
+                        console.log('Mayor' + a)
+                    }
+                    
+                    if(b>a){
+                        console.log('Mayor'+ b)
+                    }
+                    
+                    if(a==b){
+                        console.log('Son iguales' + a)
+                    }
+                }
+        
+        
+            mayor(2,5);
     </script>
 
 
