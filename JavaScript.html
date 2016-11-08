@@ -175,9 +175,20 @@ var monthsToPrint = 12;
             
             numSheep= numSheep*4;
             console.log('The will be ' + ''+ numSheep*4 + ''+ 'sheep after'+ ''+ monthNumber + 'months');
-            if(numSheep>10000){
-                numSheep=numSheep/2;
-                console.log(numSheep);
+//            if(numSheep>10000){
+//                numSheep=numSheep/2;
+//                console.log(numSheep);
+//            }
+            
+            
+            if (monthNumber%4==0){
+                 console.log(numSheep * 0.75);
+                numSheep= numSheep- numSheep*0.75;
+               
+            }
+            else{
+                
+                
             }
             monthNumber++;
             
