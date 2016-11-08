@@ -138,13 +138,14 @@
         console.log('Empieza');
         console.log(arregloNumero);
         
-while(count>0){
-    if(count%2==0){
+while(count>=0){
+    if(count>1 && count <=10){
+        
+        if (count % 2==0) 
         console.log('El numero: '+count+' es par');
-    }else{
-        console.log('El numero: '+count+' es impar');
     }
     arregloNumero.push(count);
+    
     //count=count+1;
     count--;
 }
@@ -173,16 +174,18 @@ var monthsToPrint = 12;
         while(monthNumber<=monthsToPrint){
             
             numSheep= numSheep*4;
-            console.log('texto' + numSheep*4 + 'texto'+ monthNumber);
-            
+            console.log('The will be ' + ''+ numSheep*4 + ''+ 'sheep after'+ ''+ monthNumber + 'months');
+            if(numSheep>10000){
+                numSheep=numSheep/2;
+                console.log(numSheep);
+            }
             monthNumber++;
             
             
         }
         
-        
-        
-        
+
+    
    
     </script>
 
