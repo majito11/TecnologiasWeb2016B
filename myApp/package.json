@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/majito11/TecnologiasWeb2016B.git"
+    "url": ""
   },
-  "author": "Majo Caiza",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/majito11/TecnologiasWeb2016B/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/majito11/TecnologiasWeb2016B#readme",
+  "homepage": "",
   "dependencies": {
     "express": "^4.14.0"
   }
