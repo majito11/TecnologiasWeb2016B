@@ -1,5 +1,5 @@
 {
-  "name": "tecnologiaswebrfabrizio",
+  "name": " Josa Caiza ",
   "version": "1.0.1",
   "description": "Ejemplo para usar el npm",
   "main": "app.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "fabriram20"
+    "url": ""
   },
   "keywords": [
     "calculadora"
   ],
-  "author": "Fabrizio Ramirez",
-  "license": "ISC"
+  "author": "",
+  "license": ""
 }
