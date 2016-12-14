@@ -1,11 +1,11 @@
 ## MATERIA: TECNOLOGIAS WEB CON JAVASCRIPT
 
 
-### TEMA: Introducción a la web
+### TEMA: NPM
 ### Nombre: Caiza Cargua María José
-### Fecha: 27/10/2016
+### Fecha: 2016-11-23
 ### Nombre Profesor: Ing. Tania Calle - Ing. Adrian Eguez
-### Informe: N° 1
+### Informe: N° 7
 
 ## Indice de contenidos
 
@@ -17,117 +17,92 @@
 
 ## 1. Tema
 
-   Tags HTML- Introduccion a la Web
+   El tema de la practica es NPM
    
 ## 2. Objetivos
  
--	Aprender acerca del uso de DOCTYPES
--	Aprender el uso de Tags HTML mediante el uso de brackets.
+-	Instalar y utilizar Node JS
+-   Crear y publicar paquetes NPM
+-    Instalar, desintalar y versionar parquetes NPM
 
 
 ## 3. Marco Teórico 
 
 
-#### World Wide Web
+#### NPM
 
-La World Wide Web o www nace a principios de los años 90 en Suiza. Su función es ordenar y distribuir la información que existe en internet.
+NPM se incluye automáticamente cuando se instala Node.js. NPM consiste en una línea de comandos de cliente que interactúa con un registro remoto. Permite a los usuarios consumen y distribuyen los módulos de JavaScript que están disponibles en el registro. Paquetes en el registro están en CommonJS formato e incluyen un archivo de metadatos en JSON formato. Más de 280.000 paquetes están disponibles en el registro principal de la NGP Paquetes en la NGP se registran en un primer llegado primer servido base y no distinguen entre los autores, lo que significa que se anule la publicación de un paquete no sólo puede romper los proyectos que dependen de ella, sino también plantear un riesgo para la seguridad. El registro NPM tiene ningún proceso de selección para la presentación, lo que significa que los paquetes encontrados no puede haber baja calidad, inseguro, o malicioso. Sin embargo, los administradores del servidor de la NGP son totalmente capaces de borrar paquetes maliciosos o prohibición de usuarios maliciosos.  NPM expone las estadísticas de uso y el número de paquetes en función de ayudar a los desarrolladores en la selección de las bibliotecas. 
 
-La World Wide Web se basa en hipertextos, es decir, páginas en las que se pueden insertar hipervínculos. Estos conducen al usuario de una página web a otra o a otro punto de esa web. [Fuente](http://www.fotonostra.com/digital/paginasweb.htm)
+[Fuente](https://en.wikipedia.org/wiki/Npm_(software))
 
-![World Wide Web](http://www.fotonostra.com/digital/fotos/paginasweb.jpg)
+![NPM](https://vorba.ch/2012/nodejs-npm.png)
 
-#### W3C
+#### NPM
 
-La principal actividad del W3C es desarrollar protocolos y directrices que aseguren el crecimiento de la Web a largo plazo. Los estándares del W3C definen las partes claves que hacen que la World Wide Web funcione. 
+Como un evento asíncrono impulsada JavaScript tiempo de ejecución, el nodo está diseñado para construir aplicaciones de red escalables. En el siguiente ejemplo "hola mundo", muchas conexiones se pueden manejar simultáneamente. Tras cada conexión de la devolución de llamada se dispara, pero si no hay trabajo por hacer Nodo está durmiendo.
+
+[Fuente](https://nodejs.org/en/about/)
 
 
-#### Que es HTML
 
-**(HyperText Markup Language)**
-
- Hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros
- 
-  Es un estándar a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW).
-  [Fuente](https://es.wikipedia.org/wiki/HTML)
-  
-
-**Ejemplos de tags en html**
-
-![Tags en HTML](https://3.bp.blogspot.com/-0ka-BSo8ALc/Vw9ZCnQdJ4I/AAAAAAAAqMU/P08c8iRc7DQSedTMDKWdPo-cWpfSYjoHgCLcB/s400/tags.jpg)
-  
-### Que es HTTP
-
-**Hypertext Transfer Protocol**
-
-Es el protocolo de comunicación que permite las transferencias de información en la World Wide Web. HTTP fue desarrollado por el World Wide Web Consortium y la Internet Engineering Task Force, colaboración que culminó en 1999 con la publicación de una serie de RFC, el más importante de ellos es el RFC 2616 que especifica la versión 1.1. HTTP define la sintaxis y la semántica que utilizan los elementos de software de la arquitectura web (clientes, servidores, proxies) para comunicarse.
-
-[Fuente](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
-![HTTP](http://www.mastermagazine.info/termino/wp-content/uploads/HTTP.jpg)
-
-**Métodos de HTTP**
-
-HTTP define algunos metodos que indica la accion que desea que se realice. A continuacion se presenta algunos ejemplos: 
-
-1. GET
-
-El método GET se emplea para leer una representación de un resource. En caso de respuesta positiva (200 OK), GET devuelve la representación en un formato concreto: HTML, XML, JSON o imágenes, JavaScript, CSS, etc. En caso de respuesta negativa devuelve 404 (not found) o 400 (bad request). 
-
-2. POST
-
-Aunque se puedan enviar datos a través del método GET, en muchos casos se utiliza POST por las limitaciones de GET. En caso de respuesta positiva devuelve 201 (created). Los POST requests se envían normalmente con formularios
-
-3. PUT
-
-Utilizado normalmente para actualizar contenidos, pero también pueden crearlos. Tampoco muestra ninguna información en la URL. En caso de éxito devuelve 201 (created, en caso de que la acción haya creado un elemento) o 204 (no response, si el servidor no devuelve ningún contenido).
- 
-4. DELETE
-
-Simplemente elimina un resource identificado en la URI. Si se elimina correctamente devuelve 200 junto con un body response, o 204 sin body. DELETE, al igual que PUT y GET, también es idempotente.
-
-5. HEAD
-
-Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP response. Cuando se envía un HEAD request, significa que sólo se está interesado en el código de respuesta y los headers HTTP, no en el propio documento. Con este método el navegador puede comprobar si un documento se ha modificado, por razones de caching. Puede comprobar también directamente si el archivo existe.
- 
- [Fuente](https://diego.com.es/metodos-http)
- 
- 
 ## 4. Desarrollo de la Práctica 
  
- Esta es una estructura de HTML
- 
- ![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
- 
-La !DOCTYPE html declaración indica que este documento sea HTML5
-El html elemento es el elemento raíz de una página HTML
-El  head elemento contiene información de metadatos sobre el documento
-El title elemento especifica un título para el documento
-El  body elemento contiene el contenido de la página visible
-El  h1 elemento define un gran encabezado
-El  p elemento define un párrafo
+
+1. Creamos la carpeta Node y en esta carpeta iniciamos la consola en la cual ingresamos al compilador de node con el comando 
+node 
+
+![](https://github.com/majito11/TecnologiasWeb2016B/blob/07-nodeJS/Graficos/ImagenesNPM/Captura1.PNG)
+
+2. Creamos el archivo app.js en la carpeta Node realizamos unas pequeñas funciones y podemos ejecutarlas en la consola de node.
+
+![](https://github.com/majito11/TecnologiasWeb2016B/blob/07-nodeJS/Graficos/ImagenesNPM/Captura2.PNG)
+
+3. Para realizar la publicacion de un paquete nos creamos una cuenta en [NPM](https://www.npmjs.com/) 
+
+![](https://github.com/majito11/TecnologiasWeb2016B/blob/07-nodeJS/Graficos/ImagenesNPM/Captura3.PNG)
 
 
-Despues de haber creado nuestro primer codigo html obtenemos.
+4. Para crear un paquete vamos a utilizar el siguiente comando
 
-![Documento](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/pagweb.PNG)
+```npm -init```
 
-Mediante el tag href podemos ubicar un link en nuestra pagina
 
-![Link](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/linkpag.PNG)
+5. En el cual nos solicitara varios campos para llenar
 
-Podemos crear nuestra propia pagina mediante la edicion de estilos y colores 
+![](https://github.com/majito11/TecnologiasWeb2016B/blob/07-nodeJS/Graficos/ImagenesNPM/Captura4.PNG)
 
-![Codigo HTML](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/PaginaConImagenesColores.PNG)
+6. Para publicar un paquete, tomamos como guia el video de npm [video](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 
-Y obtenemos esta pagina
 
-![Pagina](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/Pagina.PNG)
+
+7. Debemos ingresar con el comando 
+
+```npm login```
+
+
+8. Luego podemos publicar nuestro paquete con el comando
+
+``` npm publish```
+
+
+9. Para instalar un paquete npm utilizamos el siguiente comando
+
+```npm i "nombre del paquete publicado"```
+
+
+10. Para desinstalar un paquete npm
+
+```npm uninstall "nombre del paquete"```
+
 
 ## 5. Conclusiones
 
-1. Se podria mejorar la presentacion tomando capturas en el momento de la clases.
-2. Se aprendio el uso de DocTypes.
-3. Se aprendio sobre los tag utilizados en html.
-4. Con el conocimiento de los tags pudimos realizar trabajos de web.
+* La utilizacion de npm mediante NodeJS es mas facil debido a que ya viene por defecto.
+* Para poder hacer la creacion de paquetes necesitamos tener una cuenta en npm
+* Debemos tener presente que puede haber errores al momento de la publicacion de algun paquete.
+
+
+
 
 
 
