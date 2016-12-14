@@ -35,7 +35,7 @@ NPM se incluye automáticamente cuando se instala Node.js. NPM consiste en una l
 
 [Fuente](https://en.wikipedia.org/wiki/Npm_(software))
 
-![NPM](https://vorba.ch/2012/nodejs-npm.png)
+¡[NPM](https://vorba.ch/2012/nodejs-npm.png)
 
 #### NPM
 
