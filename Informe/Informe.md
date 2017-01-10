@@ -38,16 +38,54 @@ Por otro lado, a veces, cuando hablamos de "marcos web", nos referimos a la "red
 
 ![Sails](https://camo.githubusercontent.com/6c76c5e3904170744bad0031ac667f8bc252147f/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67)
 
+### Assets
 
+Los activos se refieren a archivos estáticos (js, css, imágenes, etc) en el servidor que desea mostrar al mundo exterior. En Sails, estos archivos se colocan en la carpeta Assets/. Cuando levante su aplicación, se puede agregar archivos a la carpeta assets/, o cambiar los assets existentes. Sails procesos y sincroniza esos archivos en una carpeta oculta (.tmp / public /).
 
+[Fuente](http://sailsjs.com/documentation/concepts/assets)
+
+### Views
+
+En Sails, las vistas son plantillas markup que se compilan en el servidor en páginas HTML. En la mayoría de los casos, las vistas se utilizan como respuesta a una solicitud HTTP entrante, por ejemplo para servir la página de inicio.
+Alternativamente, una vista puede ser compilada directamente en una cadena HTML para usarla en el código del backend. Por ejemplo, puede usar este enfoque para enviar correos electrónicos HTML o para construir grandes cadenas XML para usar con un API heredada.
+
+[Fuente](http://sailsjs.com/documentation/concepts/views)
+
+### Controllers
+
+Este es el directorio que contiene sus controladores. En Sails, los controladores son archivos javascript que contienen lógica para interactuar con los modelos y renderizar vistas apropiadas para el cliente.
+Cuando se llama a sails se genera un API a través de la línea de comandos desde dentro del directorio raíz de su proyecto, Sails generará el archivo api / controllers / CatsController.js junto con un modelo de emparejamiento.
+
+[Fuente](http://sailsjs.com/documentation/anatomy/api/controllers)
 
  
 ## 4. Desarrollo de la Práctica 
  
- Esta es una estructura de HTML
+ * Instalamos Sails.js, para eso abrimos una consola de windows y con la ayuda del gestor de paquetes ``` npm install -g sails```
  
- ![Estructura](https://github.com/majito11/TecnologiasWeb2016B/blob/master/HTML/EstructuraHTML.PNG)
- 
+  
+ ![Instalacion]()
+
+* En la carpeta que deseamos crear un proyecto ejecutamos el comando ```Sails new NombreProyecto```
+
+* Cuando se crea el proyecto se generaran los siguientes archivos
+
+* Para levantar el servidor ejecutamos el siguiente comando ``` Sails lift ```
+
+* Despues pordemos comprobar que el servidor esta levantado, accediendo a localhost:1337 
+
+* En los archivos creados podemos encontrar la carpeta assets creamos estos tres archivos:
+
+1. app.js
+2. estilo.css
+3. index.html
+
+* Podemos observar su funcionamiento ingresando a localhost:1337/App/index.html
+
+* En la carpeta de App podemos crear otra carpeta en donde ubicaremos las imagenes que utilizaremos en nuestra pagina
+
+* 
+
 
 
 ## 5. Conclusiones
