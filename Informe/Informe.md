@@ -64,31 +64,65 @@ Cuando se llama a sails se genera un API a través de la línea de comandos desd
  * Instalamos Sails.js, para eso abrimos una consola de windows y con la ayuda del gestor de paquetes ``` npm install -g sails```
  
   
- ![Instalacion]()
+ ![Instalacion](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/1.PNG)
 
 * En la carpeta que deseamos crear un proyecto ejecutamos el comando ```Sails new NombreProyecto```
 
+
+ ![Proyecto](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/2.PNG)
+
+
 * Cuando se crea el proyecto se generaran los siguientes archivos
+
+ ![Carpetas](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/3.PNG)
 
 * Para levantar el servidor ejecutamos el siguiente comando ``` Sails lift ```
 
+ ![Levantar Sevicio](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/4.PNG)
+
 * Despues pordemos comprobar que el servidor esta levantado, accediendo a localhost:1337 
+
+ ![Resultado](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/5.PNG)
 
 * En los archivos creados podemos encontrar la carpeta assets creamos estos tres archivos:
 
 1. app.js
+
+
+ ![Archivo app.js](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/8.PNG)
 2. estilo.css
+
+ ![Archivo estilos.css](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/7.PNG)
+
 3. index.html
+
+ ![Archivo index.html](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/6.PNG)
 
 * Podemos observar su funcionamiento ingresando a localhost:1337/App/index.html
 
-* En la carpeta de App podemos crear otra carpeta en donde ubicaremos las imagenes que utilizaremos en nuestra pagina
+ ![Resultado](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/9.PNG)
+
+
 
 * Podemos editar el archivo pipeline.js el cual se encuentra dentro de la carpeta tasks, este es el archivo que indica que archivos css se utilizaran.
 
+ ![Archivo pipeline.js](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/10.PNG)
+ 
+ * Podemos modificar el archivo cambiando
+ 
+  ![Codigo de archivo](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/11.PNG)
+
+
 * La carpeta Vistas (views) esta dentro del proyecto, la cual contiene los siguientes archivos.
 
-* Estos archivos hacen referencia a las pantallas de error 
+ ![Archivos](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/12.PNG)
+
+
+* Estos archivos hacen referencia a las pantallas de error, por ejemplo:
+
+ ![Archivo error](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/13.PNG)
+
+
 
 
 ## 5. Conclusiones
