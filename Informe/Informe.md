@@ -84,11 +84,20 @@ Cuando se llama a sails se genera un API a través de la línea de comandos desd
 
 * En la carpeta de App podemos crear otra carpeta en donde ubicaremos las imagenes que utilizaremos en nuestra pagina
 
-* 
+* Podemos editar el archivo pipeline.js el cual se encuentra dentro de la carpeta tasks, este es el archivo que indica que archivos css se utilizaran.
 
+* La carpeta Vistas (views) esta dentro del proyecto, la cual contiene los siguientes archivos.
+
+* Estos archivos hacen referencia a las pantallas de error 
 
 
 ## 5. Conclusiones
+
+* Sails es un framework web que nos ayuda a la creacion de aplicaciones.
+* El servidor web de sails se encuentra localizado en la carpeta asets.
+* Es necesario levantar el servicio cuantas veces sea haga un cambio.
+
+
 
 
 
