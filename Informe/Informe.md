@@ -1,7 +1,7 @@
 ## MATERIA: TECNOLOGIAS WEB CON JAVASCRIPT
 
 
-### TEMA: SAIILS.JS
+### TEMA: SAILS.JS
 ### Nombre: Caiza Cargua María José
 ### Fecha: 20/12/2016
 ### Nombre Profesor: Ing. Tania Calle - Ing. Adrian Eguez
