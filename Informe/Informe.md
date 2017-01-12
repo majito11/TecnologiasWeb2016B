@@ -74,7 +74,7 @@ Cuando se llama a sails se genera un API a través de la línea de comandos desd
 
 * Cuando se crea el proyecto se generaran los siguientes archivos
 
- ![Carpetas](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/3.PNG)
+ ![Carpetas](https://github.com/majito11/TecnologiasWeb2016B/blob/10-sails/Informe/Graficos/3.png)
 
 * Para levantar el servidor ejecutamos el siguiente comando ``` Sails lift ```
 
