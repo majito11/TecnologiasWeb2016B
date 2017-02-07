@@ -1,3 +1,6 @@
+para iniciar el servidor
+
+
 ```
 > sails lift
 ```
@@ -13,3 +16,18 @@ Servidor web de sailsjs
 el servidor web de sails se encuentra localizado en la carpeta aseets
 
 para generar controladores se utiliza el siguiente comando
+
+Generar controladores
+sails generate controller NombreControlados
+
+Generar APIs en sialjs
+
+sails generate api NombreApi
+
+un api es la funcion de un controlador y un modelo
+
+Generar Modelo en sialjs
+
+sails generate model NombreApi
+
+un api es la funcion de un controlador y un modelo
